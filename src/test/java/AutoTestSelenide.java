@@ -14,7 +14,7 @@ public class AutoTestSelenide {
     @Test
     void shouldTest() {
         Configuration.holdBrowserOpen = true;
-        $(".button").click();
+        $("button").click();
     }
 
 
